@@ -1,0 +1,526 @@
+.entry-content img {
+	border: 1px solid rgb(230, 236, 239);
+}
+.post-thumbnail {
+	width: 202px; overflow: hidden; margin-right: 30px; float: left;
+}
+.post-preview {
+	width: 298px; overflow: hidden; float: left;
+}
+.entry-content .wp-post-image {
+	margin-bottom: 20px;
+}
+.post-preview h2.entry-title {
+	margin: 0px 0px 0.2em; color: rgb(14, 29, 37); line-height: 1em !important; letter-spacing: -0.03em; clear: both; font-family: arial; font-size: 3.2em !important; font-weight: normal;
+}
+.post-preview h2.entry-title a {
+	color: rgb(92, 172, 210) !important;
+}
+.the-tags {
+	background: rgb(244, 246, 247); margin: 0.5em 0px !important; padding: 5px; border-radius: 8px; color: rgb(14, 29, 37); font-size: 1em !important; font-weight: normal; -moz-border-radius: 8px; -webkit-border-radius: 8px; -khtml-border-radius: 8px;
+}
+.the-tags li {
+	margin: 0px 3px !important; float: left; display: inline-block;
+}
+.entry-content ul {
+	margin: 0px 41px 10px 42px;
+}
+.entry-content ol {
+	margin: 0px 41px 10px 45px;
+}
+.entry-content ul {
+	padding-right: 0px; font-size: 1.4em; margin-bottom: 1.2em;
+}
+.entry-content ol {
+	padding-right: 0px; font-size: 1.4em; margin-bottom: 1.2em;
+}
+.entry-content ul li {
+	list-style: square; margin-bottom: 0.9em;
+}
+.entry-content ol li {
+	margin-bottom: 0.9em;
+}
+.entry-content a {
+	color: rgb(92, 172, 210); text-decoration: none;
+}
+.entry-content a:hover {
+	color: rgb(51, 204, 255); text-decoration: underline;
+}
+.entry-content h1 {
+	padding-bottom: 10px;
+}
+.entry-content h2 {
+	padding-bottom: 10px;
+}
+.entry-content h3 {
+	padding-bottom: 10px;
+}
+.entry-content h4 {
+	padding-bottom: 10px;
+}
+.entry-content h5 {
+	padding-bottom: 10px;
+}
+.entry-content h6 {
+	padding-bottom: 10px;
+}
+.entry-content h1 {
+	font-size: 18px;
+}
+.entry-content h2 {
+	font-size: 1.7em; margin-top: 2em;
+}
+.entry-content h3 {
+	font-size: 1.6em; margin-top: 2em;
+}
+.entry-content h4 {
+	font-size: 15px;
+}
+.entry-content h5 {
+	font-size: 15px;
+}
+.entry-content h6 {
+	font-size: 14px;
+}
+.botao {
+	background: rgb(100, 174, 20) !important; border-width: medium 1px 1px; border-style: none solid solid; border-color: currentColor rgb(93, 164, 16) rgb(93, 164, 16); margin: 1em 0px !important; padding: 10px !important; border-radius: 8px; color: rgb(255, 255, 255) !important; font-size: 1.2em !important; font-weight: normal !important; display: inline-block !important; -moz-border-radius: 8px; -webkit-border-radius: 8px; -khtml-border-radius: 8px;
+}
+.botao:hover {
+	background: rgb(120, 199, 34) !important; color: rgb(255, 255, 255) !important; text-decoration: none !important;
+}
+#header {
+	background: url("http://bernarddeluna.com/img/bg.jpg") repeat-x left top rgb(14, 29, 37); height: 25px; padding-top: 10px; border-bottom-color: rgb(255, 255, 255); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#header .frase {
+	color: rgb(120, 130, 134) !important; font-size: 1.3em; margin-left: -30px;
+}
+#header .frase strong {
+	color: rgb(169, 179, 183); font-weight: normal;
+}
+#header .frase:hover {
+	text-decoration: underline;
+}
+#header .twitter {
+	float: right;
+}
+.titulo-slogan {
+	background: url("img/titulo-slogan.png") no-repeat top; margin: 50px auto 20px; left: -13px; width: 943px; height: 89px; position: relative;
+}
+.titulo-slogan a {
+	width: 300px; height: 89px; text-indent: -999px; overflow: hidden; display: block;
+}
+#container {
+	margin-top: 30px;
+}
+.sidebar {
+	margin-top: 30px;
+}
+#content {
+	clear: both;
+}
+.post {
+	padding-bottom: 20px; margin-bottom: 20px; border-bottom-color: rgb(244, 246, 247); border-bottom-width: 1px; border-bottom-style: solid; position: relative;
+}
+#comments h3 {
+	margin: 0px 0px 10px -150px; color: rgb(14, 29, 37); text-transform: uppercase; padding-bottom: 3px; padding-left: 150px; clear: both; font-size: 3em;
+}
+h1.entry-title {
+	color: rgb(14, 29, 37); line-height: 1em !important; letter-spacing: -0.02em; clear: both; font-size: 3em !important; font-weight: normal; margin-bottom: 0.8em;
+}
+.page-title {
+	background: rgb(244, 246, 247); padding: 10px; border-radius: 8px; color: rgb(14, 29, 37); font-size: 1.8em; font-weight: normal; margin-bottom: 1em; -moz-border-radius: 8px; -webkit-border-radius: 8px; -khtml-border-radius: 8px;
+}
+.entry-info {
+	background: rgb(14, 29, 37); padding: 10px; border-radius: 8px 0px 0px 8px; width: 60px; overflow: hidden; margin-top: 0px; margin-left: -100px; float: left; -moz-border-radius-bottomleft: 8px; -moz-border-radius-bottomright: 0; -webkit-border-bottom-left-radius: 8px; -webkit-border-bottom-right-radius: 0; -khtml-border-bottom-left-radius: 8px; -khtml-border-bottom-right-radius: 0; -moz-border-radius-topleft: 8px; -moz-border-radius-topright: 0; -webkit-border-top-left-radius: 8px; -webkit-border-top-right-radius: 0; -khtml-border-top-left-radius: 8px; -khtml-border-top-right-radius: 0;
+}
+.entry-info li {
+	list-style: none; font-size: 1em; margin-bottom: 2px;
+}
+.it-time {
+	margin: 15px 0px 20px !important; height: auto; text-align: center; color: rgb(255, 255, 255); font-size: 2.5em !important; display: block;
+}
+.entry-info li a {
+	background: rgb(24, 39, 46); margin: 0px -5px; padding: 5px; border-radius: 4px; color: rgb(206, 206, 206); display: block; -moz-border-radius: 4px; -webkit-border-radius: 4px; -khtml-border-radius: 4px;
+}
+.entry-info li a:hover {
+	background: rgb(52, 65, 72); color: rgb(255, 255, 255);
+}
+.entry-content {
+	min-height: 120px;
+}
+a.more-link {
+	color: rgb(119, 119, 119); text-decoration: none;
+}
+a.more-link:hover {
+	color: rgb(255, 51, 0);
+}
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
+.aligncenter {
+	margin: 0px auto; display: block;
+}
+div.aligncenter {
+	margin: 0px auto; display: block;
+}
+img.alignleft {
+	margin-right: 15px;
+}
+img.alignright {
+	margin-left: 15px;
+}
+.noresults ol li h3 {
+	margin: 0px; padding: 2px 0px; font-size: 15px; font-weight: 500;
+}
+.noresults ol li h3 a {
+	color: rgb(106, 109, 169);
+}
+.noresults ol li h3 a:hover {
+	color: rgb(51, 204, 255);
+}
+input#noresults-s {
+	width: 250px;
+}
+.bio-author {
+	padding: 15px; border: 10px solid rgb(244, 246, 247);
+}
+.bio-author h3 {
+	font-size: 1.8em; font-weight: normal; margin-bottom: 0px;
+}
+.bio-author h2 {
+	font-size: 2.5em; margin-top: -5px; margin-bottom: 0px;
+}
+.bio-author h2 a {
+	color: rgb(92, 172, 210);
+}
+.bio-author img {
+	border: 3px solid rgb(176, 208, 223); width: 90px; margin-right: 15px; float: left;
+}
+.bio-author .author-twitter {
+	font-size: 1.2em;
+}
+.bio-author-txt {
+	width: 369px; height: auto; float: left;
+}
+.bio-author p {
+	font-size: 1.2em; margin-bottom: 0px;
+}
+#comments {
+	margin-top: 40px;
+}
+#comments h3 {
+	padding-bottom: 3px;
+}
+.comments ol {
+	margin-bottom: 20px;
+}
+.comments ol li {
+	background: rgb(176, 208, 223); list-style: none; border-radius: 8px; color: rgb(51, 51, 51); margin-bottom: 20px; -moz-border-radius: 8px; -webkit-border-radius: 8px; -khtml-border-radius: 8px;
+}
+.comments ol li.alt {
+	background: rgb(133, 172, 191);
+}
+#comments-list ol li .avatar {
+	padding: 2px; border: 1px solid rgb(255, 255, 255); float: right;
+}
+.moderation {
+	color: rgb(255, 51, 0);
+}
+.comment-text {
+	padding: 10px; color: rgb(51, 51, 51);
+}
+.comment-meta {
+	background: rgb(244, 246, 247); padding: 10px; color: rgb(51, 51, 51); border-bottom-right-radius: 8px; border-bottom-left-radius: 8px; -moz-border-radius-bottomleft: 8px; -moz-border-radius-bottomright: 8px; -webkit-border-bottom-left-radius: 8px; -webkit-border-bottom-right-radius: 8px; -khtml-border-bottom-left-radius: 8px; -khtml-border-bottom-right-radius: 8px;
+}
+.comment-meta a {
+	color: rgb(92, 172, 210);
+}
+.comment-meta span a {
+	color: rgb(92, 172, 210);
+}
+.comment-meta span {
+	color: rgb(92, 172, 210);
+}
+.comment-meta span a:hover {
+	color: rgb(92, 172, 210);
+}
+.comment-meta a:hover {
+	color: rgb(92, 172, 210);
+}
+.required {
+	color: rgb(255, 51, 0);
+}
+p input {
+	padding: 3px 5px; border: 1px solid rgb(221, 221, 221); width: 200px; margin-right: 10px;
+}
+textarea#comment {
+	padding: 3px 5px; border: 1px solid rgb(220, 220, 220);
+}
+input#submit {
+	background: rgb(86, 86, 86); padding: 3px 0px; text-align: center; color: rgb(255, 255, 255); margin-top: 10px;
+}
+#searchform {
+	margin: 10px 0px; width: 200px;
+}
+#s {
+	padding: 3px 5px; border: 1px solid rgb(221, 221, 221); width: 128px;
+}
+#noresults-s {
+	padding: 3px 5px; border: 1px solid rgb(221, 221, 221); width: 128px;
+}
+#searchsubmit {
+	background: rgb(101, 101, 101); padding: 2px 0px; border: 1px solid rgb(221, 221, 221); width: 55px; color: rgb(255, 255, 255); cursor: pointer;
+}
+#noresults-searchsubmit {
+	background: rgb(101, 101, 101); padding: 2px 0px; border: 1px solid rgb(221, 221, 221); width: 55px; color: rgb(255, 255, 255); cursor: pointer;
+}
+.sidebar {
+	color: rgb(119, 119, 119);
+}
+.sidebar p {
+	color: rgb(119, 119, 119); line-height: 135%; margin-top: 10px;
+}
+.sidebar h4 {
+	text-transform: uppercase; padding-bottom: 4px; font-size: 1.7em; font-weight: normal;
+}
+.sidebar ul li {
+	list-style: none;
+}
+.widget {
+	margin-bottom: 40px;
+}
+.sidebar ul ul {
+	margin: 10px 0px;
+}
+.sidebar ul ul li {
+	list-style: square; margin: 0px 0px 0px 1em; padding: 2px 0px; font-size: 1.2em;
+}
+#footer {
+	padding: 20px 20px 20px 150px; color: rgb(244, 246, 247);
+}
+#footer span {
+	font-size: 1.1em;
+}
+#footer span.ipower {
+	color: rgb(51, 204, 255);
+}
+#footer a.ipower {
+	color: rgb(153, 204, 0); text-transform: capitalize; font-weight: 700;
+}
+#footer a.ipower:hover {
+	text-decoration: underline;
+}
+.obs {
+	margin: 30px 0px; padding: 15px; border-radius: 4px; border: 1px solid rgb(230, 219, 85); background-color: rgb(255, 255, 224); -moz-border-radius: 4px; -webkit-border-radius: 4px; -khtml-border-radius: 4px; -moz-box-shadow: 0 2px 3px rgba(0, 0, 0, .2); -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, .2);
+}
+.bts {
+	padding: 10px; height: auto; clear: both;
+}
+.bt {
+	background: url("http://bernarddeluna.com/blog/wp-content/uploads/2011/03/bg-bt.jpg") repeat-x left bottom rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(206, 206, 206) rgb(191, 191, 191) rgb(116, 116, 116); padding: 25px 40px; border-radius: 5px; height: auto; color: rgb(85, 85, 84) !important; font-size: 3em; text-decoration: none !important; margin-right: 5px; display: inline-block; filter: Shadow(Color=#fff, Direction=180,  Strength=1); position: relative; opacity: 0.8; -moz-border-radius: 5px; -webkit-border-radius: 5px; -khtml-border-radius: 5px; text-shadow: #fff 0px 1px 0px;
+}
+.bt-primary {
+	background: url("http://bernarddeluna.com/blog/wp-content/uploads/2011/03/bg-bt-primary.jpg") repeat-x left bottom rgb(67, 180, 225); border-width: 1px; border-style: solid; border-color: rgb(23, 125, 167) rgb(11, 109, 150) rgb(0, 99, 140); color: rgb(255, 255, 255) !important; filter: Shadow(Color=#67b6d5, Direction=180,  Strength=1); text-shadow: #67b6d5 0px 1px 0px;
+}
+.bt:hover {
+	color: rgb(85, 85, 84) !important; z-index: 2; opacity: 1; -moz-transition: all .6s ease-in-out; -moz-transform: rotate(0deg) scale(1.10); -webkit-transition: all .6s ease-in-out; -webkit-transform: rotate(0deg) scale(1.10); -o-transition-duration: all .6s ease-in-out; -o-transform: rotate(0deg) scale(1.10);
+}
+.bt:focus {
+	color: rgb(85, 85, 84) !important; z-index: 2; opacity: 1; -moz-transition: all .6s ease-in-out; -moz-transform: rotate(0deg) scale(1.10); -webkit-transition: all .6s ease-in-out; -webkit-transform: rotate(0deg) scale(1.10); -o-transition-duration: all .6s ease-in-out; -o-transform: rotate(0deg) scale(1.10);
+}
+.bt-primary:hover {
+	color: rgb(255, 255, 255) !important;
+}
+.bt-primary:focus {
+	color: rgb(255, 255, 255) !important;
+}
+.list-check {
+	margin: 10px 0px !important;
+}
+.list-check li {
+	list-style: none !important; padding: 10px 10px 10px 32px; color: rgb(0, 0, 0); font-family: arial !important; border-bottom-color: rgb(255, 255, 255); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(247, 247, 244);
+}
+.list-check li:hover {
+	background-color: rgb(227, 227, 220);
+}
+.list-check li label {
+	color: rgb(51, 51, 51); line-height: 1.3em; font-size: 1em; cursor: pointer;
+}
+.list-check li:hover label {
+	color: rgb(0, 0, 0);
+}
+.list-check input[type='checkbox'] {
+	margin-right: 5px; margin-left: -22px; cursor: pointer;
+}
+.list-check .checked {
+	background: url("http://bernarddeluna.com/blog/wp-content/uploads/2011/04/ico-check.png") no-repeat 10px 13px rgb(229, 248, 206);
+}
+.list-check .checked input[type='checkbox'] {
+	display: none;
+}
+.list-check .checked:hover input[type='checkbox'] {
+	display: inline !important;
+}
+.list-check .checked:hover {
+	background: rgb(229, 248, 206) !important;
+}
+.list-check .disabled label {
+	color: rgb(153, 153, 153);
+}
+.demo-botoes-css3 {
+	background: rgb(247, 247, 247); padding: 50px;
+}
+.demo-botoes-css3 .btt {
+	text-align: center; margin-bottom: 30px;
+}
+.demo-botoes-css3 .btt-02 {
+	text-align: center; margin-bottom: 30px;
+}
+.demo-botoes-css3 .btt-03 {
+	text-align: center; margin-bottom: 30px;
+}
+.demo-botoes-css3 a:hover {
+	text-decoration: none !important;
+}
+.demo-botoes-css3 .btt {
+	background: rgb(255, 255, 0); border-width: 1px; border-style: solid; border-color: rgb(236, 236, 236) rgb(208, 208, 208) rgb(144, 144, 144); font: 30px/1.1em arial; padding: 30px 40px; border-radius: 10px; height: auto; color: rgb(144, 144, 144); display: block; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e7e7e7'); font-size-adjust: none; font-stretch: normal; -moz-border-radius: 10px; -webkit-border-radius: 10px; -khtml-border-radius: 10px; -moz-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .2); -webkit-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .2);
+}
+.demo-botoes-css3 .btt:hover {
+	background: rgb(255, 255, 255); color: rgb(144, 144, 144) !important;
+}
+.demo-botoes-css3 .btt-02 {
+	background: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(236, 236, 236) rgb(208, 208, 208) rgb(144, 144, 144); font: 30px/1.1em arial; padding: 30px 40px; border-radius: 10px; height: auto; color: rgb(144, 144, 144); display: block; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e7e7e7'); font-size-adjust: none; font-stretch: normal; -moz-border-radius: 10px; -webkit-border-radius: 10px; -khtml-border-radius: 10px; -moz-box-shadow: 0 10px 10px rgba(0, 0, 0, .2), 0 7px 0px rgba(0, 0, 0, .4), 0 2px 3px rgba(0, 0, 0, .2); -webkit-box-shadow: 0 10px 10px rgba(0, 0, 0, .2), 0 7px 0px rgba(0, 0, 0, .4), 0 2px 3px rgba(0, 0, 0, .2);
+}
+.demo-botoes-css3 .btt-02:hover {
+	background: rgb(231, 231, 231); top: 5px; color: rgb(144, 144, 144) !important; border-top-color: rgb(144, 144, 144); border-bottom-color: rgb(236, 236, 236); position: relative; -moz-box-shadow: inset 0 2px 20px rgba(0, 0, 0, .2); -webkit-box-shadow: inset 0 2px 20px rgba(0, 0, 0, .2);
+}
+.demo-botoes-css3 .btt-03 {
+	background: rgb(213, 239, 247); border-width: 1px; border-style: solid; border-color: rgb(236, 236, 236) rgb(208, 208, 208) rgb(144, 144, 144); font: 30px/1.1em arial; padding: 30px 40px; border-radius: 10px; height: auto; color: rgb(255, 255, 255); display: block; font-size-adjust: none; font-stretch: normal; -moz-border-radius: 10px; -webkit-border-radius: 10px; -khtml-border-radius: 10px; -moz-box-shadow: 0 2px 3px rgba(0, 0, 0, .2); -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, .2);
+}
+.demo-botoes-css3 .btt-03:hover {
+	background: rgb(227, 244, 250); color: rgb(255, 255, 255) !important;
+}
+.formulario-exemplo {
+	font: 10px/1.2em arial; margin: 30px auto; padding: 30px; border-radius: 10px; border: 1px solid rgb(204, 204, 204); width: 468px; height: auto; color: rgb(119, 119, 119); font-size-adjust: none; font-stretch: normal; -moz-border-radius: 10px; -webkit-border-radius: 10px;
+}
+.formulario-exemplo fieldset {
+	border: currentColor;
+}
+.formulario-exemplo legend {
+	height: auto; color: rgb(5, 163, 208); line-height: 1em; font-size: 2.4em; margin-bottom: 1em; display: block;
+}
+.formulario-exemplo label {
+	height: auto; color: rgb(43, 43, 43); line-height: 1em; font-size: 1.8em; margin-bottom: 0.4em; display: block;
+}
+.formulario-exemplo input[type=text] {
+	border-width: 1px; border-style: solid; border-color: rgb(224, 228, 229) rgb(233, 233, 233) rgb(204, 204, 204); font: 1.4em/1.2em arial; padding: 15px; border-radius: 4px; width: 100%; height: auto; color: rgb(187, 187, 187); margin-bottom: 1em; box-sizing: border-box; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -moz-border-radius: 4px; -webkit-border-radius: 4px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+.formulario-exemplo input[type=password] {
+	border-width: 1px; border-style: solid; border-color: rgb(224, 228, 229) rgb(233, 233, 233) rgb(204, 204, 204); font: 1.4em/1.2em arial; padding: 15px; border-radius: 4px; width: 100%; height: auto; color: rgb(187, 187, 187); margin-bottom: 1em; box-sizing: border-box; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -moz-border-radius: 4px; -webkit-border-radius: 4px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+.formulario-exemplo select {
+	border-width: 1px; border-style: solid; border-color: rgb(224, 228, 229) rgb(233, 233, 233) rgb(204, 204, 204); font: 1.4em/1.2em arial; padding: 15px; border-radius: 4px; width: 100%; height: auto; color: rgb(187, 187, 187); margin-bottom: 1em; box-sizing: border-box; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -moz-border-radius: 4px; -webkit-border-radius: 4px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+.formulario-exemplo textarea {
+	border-width: 1px; border-style: solid; border-color: rgb(224, 228, 229) rgb(233, 233, 233) rgb(204, 204, 204); font: 1.4em/1.2em arial; padding: 15px; border-radius: 4px; width: 100%; height: auto; color: rgb(187, 187, 187); margin-bottom: 1em; box-sizing: border-box; font-size-adjust: none; font-stretch: normal; background-color: rgb(255, 255, 255); -moz-border-radius: 4px; -webkit-border-radius: 4px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+.formulario-exemplo textarea {
+	height: 10em;
+}
+.formulario-exemplo input[type=text]:hover {
+	border-color: rgb(204, 204, 204);
+}
+.formulario-exemplo input[type=password]:hover {
+	border-color: rgb(204, 204, 204);
+}
+.formulario-exemplo select:hover {
+	border-color: rgb(204, 204, 204);
+}
+.formulario-exemplo textarea:hover {
+	border-color: rgb(204, 204, 204);
+}
+.formulario-exemplo input[type=text]:focus {
+	border-color: rgb(5, 163, 208); color: rgb(43, 43, 43);
+}
+.formulario-exemplo input[type=password]:focus {
+	border-color: rgb(5, 163, 208); color: rgb(43, 43, 43);
+}
+.formulario-exemplo select:focus {
+	border-color: rgb(5, 163, 208); color: rgb(43, 43, 43);
+}
+.formulario-exemplo textarea:focus {
+	border-color: rgb(5, 163, 208); color: rgb(43, 43, 43);
+}
+.formulario-exemplo input[type=submit] {
+	background: rgb(245, 245, 245); border-width: 1px; border-style: solid; border-color: rgb(234, 234, 234) rgb(229, 229, 229) rgb(229, 229, 229); font: 1.8em/1.2em arial; padding: 12px 22px; border-radius: 4px; height: auto; text-align: center; color: rgb(119, 119, 119); letter-spacing: -0.02em; margin-left: 10px; float: right; display: inline-block; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5f5f5', endColorstr='#efefef'); cursor: pointer; font-size-adjust: none; font-stretch: normal; box-shadow: 0px 1px 0px rgba(0,0,0,0.05), inset 0px 1px 0px rgba(255,255,255,0.8); -moz-border-radius: 4px; -webkit-border-radius: 4px; -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, .05), inset 0 1px 0 rgba(255, 255, 255, .8); -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, .05), inset 0 1px 0 rgba(255, 255, 255, .8);
+}
+.formulario-exemplo input[type=submit]:hover {
+	background: rgb(238, 238, 238); border-color: rgb(204, 204, 204); text-decoration: none; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eee', endColorstr='#e8e8e8'); box-shadow: 0px 1px 0px rgba(0,0,0,0.15), inset 0px 1px 0px rgba(255,255,255,0.8); -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, .15), inset 0 1px 0 rgba(255, 255, 255, .8); -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, .15), inset 0 1px 0 rgba(255, 255, 255, .8);
+}
+.formulario-exemplo input[type=submit]:focus {
+	background: rgb(238, 238, 238); border-color: rgb(204, 204, 204); text-decoration: none; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eee', endColorstr='#e8e8e8'); box-shadow: 0px 1px 0px rgba(0,0,0,0.15), inset 0px 1px 0px rgba(255,255,255,0.8); -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, .15), inset 0 1px 0 rgba(255, 255, 255, .8); -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, .15), inset 0 1px 0 rgba(255, 255, 255, .8);
+}
+.tbl {
+	margin-bottom: 10px;
+}
+.tbl table {
+	background: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); width: 100%; font-size: 12px; border-collapse: collapse;
+}
+.tbl table td {
+	padding: 10px; border: 1px solid rgb(204, 204, 204); text-align: center;
+}
+.tbl thead {
+	background: rgb(43, 43, 43); border-color: rgb(233, 233, 233); color: rgb(245, 245, 245);
+}
+.tbl table thead th {
+	padding: 10px; text-align: center; font-weight: normal;
+}
+.tbl .clean {
+	background: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); width: 520px; color: rgb(119, 119, 119); line-height: 1.1em; font-size: 1.4em; border-collapse: collapse;
+}
+.tbl .clean thead {
+	background: rgb(255, 255, 255); border-color: rgb(43, 43, 43) rgb(233, 233, 233) rgb(233, 233, 233); color: rgb(43, 43, 43); border-top-width: 3px; border-top-style: solid;
+}
+.tbl .clean thead th {
+	font-weight: normal; border-right-color: currentColor !important; border-left-color: currentColor !important; border-right-width: 0px !important; border-left-width: 0px !important; border-right-style: none !important; border-left-style: none !important;
+}
+.tbl .clean tbody tr {
+	border-color: rgb(240, 240, 240); border-radius: 2px; -moz-border-radius: 2px; -webkit-border-radius: 2px;
+}
+.tbl .clean tbody td {
+	color: rgb(68, 68, 68); border-right-color: currentColor; border-left-color: currentColor; border-right-width: 0px; border-left-width: 0px; border-right-style: none; border-left-style: none;
+}
+.tbl .clean tbody tr:hover {
+	background: rgba(0, 0, 0, 0.05);
+}
+.tbl .effect {
+	background: rgb(255, 255, 255); box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.1); -moz-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .1); -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .1);
+}
+.tbl .effect thead {
+	border-color: rgb(200, 209, 216); color: rgb(255, 255, 255); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4dadfe', endColorstr='#4495d9'); background-color: rgb(77, 173, 254);
+}
+.tbl .effect thead th {
+	text-transform: uppercase; font-weight: normal; border-right-color: currentColor !important; border-left-color: currentColor !important; border-right-width: 0px !important; border-left-width: 0px !important; border-right-style: none !important; border-left-style: none !important;
+}
+.tbl .effect tbody tr {
+	background: rgb(255, 255, 255); border-color: rgb(240, 240, 240); border-radius: 2px; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e5edf4'); -moz-border-radius: 2px; -webkit-border-radius: 2px;
+}
+.tbl .effect tbody td {
+	border-right-color: currentColor; border-left-color: currentColor; border-right-width: 0px; border-left-width: 0px; border-right-style: none; border-left-style: none;
+}
+.tbl .effect tbody tr:hover {
+	background: rgba(255, 255, 255, 0.3); border-color: rgb(77, 173, 254); color: rgb(68, 149, 217); box-shadow: 0px 0px 3px 1px #4dadfe; -moz-box-shadow: 0 0 3px 1px #4dadfe; -webkit-box-shadow: 0 0 3px 1px #4dadfe;
+}
+.tbl .effect tbody tr:hover td {
+	border-color: rgb(77, 173, 254);
+}
+.tbl .odd tbody tr:nth-child(odd) {background: rgba(0,0,0,.05);}
+.tbl .odd tbody tr:nth-child(2n+1) {
+	background: #E3EFFF;
+}
+body .syntaxhighlighter {
+	font-size: 1.4em !important; box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.3);
+}

@@ -1,0 +1,9 @@
+                'admin' => [
+                    'children'    => ['usuario'],
+                    'permissions' => ['admin','deleteOthers','autorizar']
+                ],
+                'usuario' => [
+                    'children'    => ['visitante'],
+                    'permissions' => ['usuario','delete']
+                ],
+                'visitante'

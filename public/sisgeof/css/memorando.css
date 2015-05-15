@@ -1,0 +1,553 @@
+table.bordasimples {
+	border-collapse: collapse;
+}
+
+.nobreak {
+	display:block;
+	page-break-inside: avoid;	
+}
+.nao-orfao{
+	page-break-inside: avoid;
+	text-indent:105px;
+}
+.nome-cargo{
+	width: 100%;
+	text-indent:0px;
+	text-align:center;
+}
+.numeracao-pagina{
+	font-weight: bold;
+	font-size: 12px;
+	color: black;
+	width:5%;	
+}
+
+table.bordasimples tr td {
+	border: 1px solid #000000;
+}
+.marca-dagua{
+	font-size: 12px;
+	color: #9C9C9C;	
+	font-style:italic;
+	width:45%;
+}
+
+table.semborda {
+	border-collapse: collapse;
+}
+
+table.semborda tr td {
+	border: 1px solid #ffffff;
+}
+.oficio{
+	font-family:"Times New Roman";
+	font-size: 12pt;
+	text-align: justify;
+}
+
+.branco{
+	color:white;
+}
+
+.negrito {
+	font-weight: bold;
+}
+
+.paragrafo-margem {
+	text-indent: 30px;
+	font-size: 12pt;
+}
+
+.paragrafo {
+	font-size: 12pt;
+	text-align: justify;
+}
+
+.letra-pequena {
+	font-size: 10px;
+	color: #D71333;
+}
+
+.align-esquerda {
+	font-size: 12pt;
+	text-align: right;
+}
+.margem {
+	text-indent: 30px;
+}
+
+.paragrafo-centralizado {
+	font-size: 12pt;
+	text-align: center;
+}
+.div-emissor{
+	position:fixed;
+	text-align: absolute;
+}
+
+.tituloDoc {
+	font-size: 23px;
+	font-weight: bold;
+}
+
+.cabecalho {
+	font-family: "Times New Roman";
+	font-size: 12pt;
+}
+.cabecalho-impressao {
+	font-family: "Times New Roman";
+	font-size: 16px;
+}
+.cabecalho-visualizar {
+	font-family: "Times New Roman";
+	font-size: 13px;
+}
+
+.docestilo{
+	font-family:"Times New Roman";
+	font-size: 12pt;
+}
+.rodape{
+font-size: 12px;	
+}
+.fonte9{
+font-size: 9px;	
+}
+.fonte8{
+font-size: 8px;	
+}
+.matricula-emissor{
+	width:50%;
+	font-size: 7px;	
+}
+.fonte7{
+font-size: 7px;	
+}
+.fonte8{
+font-size: 8px;	
+}
+.fonte9{
+font-size: 9px;	
+}	
+.fonte6{
+font-size: 6px;	
+}	
+
+#wrapper {
+	width: 100%,;
+	margin: 0px auto;
+}
+
+#header {
+	border: 1px solid #bbb;
+	height: auto;
+	padding: 10px;
+}
+
+#pagina-impressao {
+	height: 1024px;
+}
+
+#impressao {
+ 	font-family:"Times New Roman";
+	padding: 0 auto;
+	margin: 0 auto;
+	font-size: 12px;
+	float: none;
+}
+
+#content {
+	margin-top: 10px;
+	text-align: center;
+}
+
+#corpo-doc {
+	border: 1px solid #bbb;
+	margin: 5px;
+	padding: 1px;
+}
+
+#item-form {
+	border: 1px solid #bbb;
+	margin: 10px;
+	padding: 5px;
+}
+
+#item-form-dir {
+	border: 1px solid #bbb;
+	width: 45%;
+	float: right;
+	padding: 5px;
+}
+.item-form-dir-nobor {
+	width: 45%;
+	float: right;
+	padding: 5px;
+}
+
+#item-form-esq {
+	border: 1px solid #bbb;
+	width: 45%;
+	float: left;
+	padding: 5px;
+}
+
+.item-form {
+	border: 1px solid #bbb;
+	margin: 10px;
+	padding: 5px;
+	text-align: left;
+}
+
+#content-left {
+	width: 180px;
+}
+
+#content-main {
+	margin-left: 10px;
+	width: 500px;
+}
+
+#content-right {
+	margin-left: 10px;
+	width: 134px;
+}
+
+#footer {
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	border: 1px solid #bbb;
+	width: 878px;
+}
+
+#bottom {
+	clear: both;
+	text-align: right;
+}
+
+.clear{
+    clear: both;
+}
+
+form.formular {
+	font-family: tahoma, verdana, "sans-serif";
+	font-size: 12px;
+	padding: 10px;
+	height: auto;
+    background-color: #f8f8f8;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);	
+
+}
+
+form.black {
+	font-family: tahoma, verdana, "sans-serif";
+	font-size: 12px;
+	padding: 15px;
+	border: 1px solid #A5A8B8;
+	background: #666666;
+	color: #CCCCCC;
+}
+
+form.black legend {
+	color: #CCCCCC;
+}
+
+.formular fieldset {
+	margin-top: 15px;
+	padding: 10px;
+	height: auto;
+}
+
+.formular legend {
+	font-size: 12px;
+	color: #15428B;
+	font-weight: 900;
+}
+
+.formular fieldset label {
+	float: none;
+	text-align: inherit;
+	width: auto;
+}
+
+.formular label span {
+	color: #000;
+}
+
+.black label span {
+	color: #ccc;
+}
+
+.formular input,.formular select,.formular textarea {
+	display: inline;
+	margin-bottom: 5px;
+}
+
+.formular .text-input {
+	color: 555;
+	padding: 4px;
+	border: 2px solid #B5B8C8;
+	font-size: 14px;
+	margin-top: 4px;
+	background: #FFF url('../img/text-bg.gif') repeat-x;
+}
+
+.text-input {
+	color: #555;
+	padding: 4px 4px 3px;
+	border: 2px solid #B5B8C8;
+	font-size: 14px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	background: #FFF url('../img/text-bg.gif') repeat-x;
+}
+
+.formular .infos {
+	background: #FFF;
+	color: #333;
+	font-size: 12px;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #B5B8C8;
+}
+
+.formular span.checkbox,.formular .checkbox {
+	display: inline;
+}
+
+.formular .button {
+	text-align: right;
+	margin-top: 20px;
+}
+
+.submit {
+	color: #555;
+	float: right;
+	text-decoration: none;
+}
+
+.formular a.submit {
+	background: url('../img/button-bg.png') repeat-x;
+	border: 1px solid #AAA;
+	padding: 4px;
+}
+
+input.button {
+	background: url('../img/button-bg.png') repeat-x;
+	border: 2px solid #AAA;
+	padding: 4px 4px 1px;
+	font-size: 14px;
+	margin-top: 4px;
+}
+.button {
+	background: url('../img/button-bg.png') repeat-x;
+	border: 2px solid #AAA;
+	padding: 4px 4px 1px;
+	font-size: 14px;
+	margin-top: 4px;
+}
+
+.formular input {
+	padding: 4px;
+}
+
+.formular hr {
+	clear: both;
+	visibility: hidden;
+}
+
+.formular .fc-error {
+	width: 350px;
+	color: 555;
+	padding: 4px;
+	border: 1px solid #B5B8C8;
+	font-size: 12px;
+	margin-bottom: 15px;
+	background: #FFEAEA;
+}
+
+.item-form-dir {
+	border: 1px solid #bbb;
+	width: 45%;
+	float: right;
+	padding: 5px;
+	text-align: left;
+}
+
+.f {
+	margin: 5px;
+	text-align: left;
+}
+.select-memo{
+	border: 1px solid #bbb;
+	padding: 5px;
+	text-align: left;
+		
+}
+.item-form-dir-max {
+	border: 1px solid #bbb;
+	float: right;
+	width: 100%;
+	padding: 5px;
+	text-align: left;
+}
+.item-form-esq-max {
+	border: 1px solid #bbb;
+	float: left;
+	width: 100%;
+	padding: 5px;
+	text-align: left;
+}
+
+.item-form-esq {
+	border: 1px solid #bbb;
+	width: 45%;
+	float: left;
+	padding: 5px;
+	text-align: left;	
+}
+
+.e {
+	border: 1px solid #bbb;
+	width: 45%;
+	text-align: left;	
+	padding: 5px;
+}
+.d {
+	border: 1px solid #bbb;
+	width: 45%;
+	text-align: left;
+	float: right;	
+	padding: 5px;
+	margin: 5px;
+}
+
+.item-form-esq-2 {
+	width: 45%;
+	float: left;
+	text-align: left;
+	
+}
+
+.item-esq-nobor {
+	width: 45%;
+	float: left;
+	padding: 5px;
+	text-align: left;
+	
+}
+.div-full {
+	width: 90%;
+	padding: 5px;
+	text-align: left;	
+}
+.align-esq {
+	width: 45%;
+	float: left;
+	padding: 5px;
+	text-align: left;
+	
+}
+.input-set {
+	width: 100%;
+	text-align: left;
+}
+.span-esq {
+	width: 45%;
+	float: left;
+	padding: 5px;
+	text-align: left;
+	
+}
+.espaco{
+	padding: 5px;
+	width: 95%;	
+	}
+.align-dir {
+	width: 45%;
+	float: right;
+	padding: 5px;
+	text-align: left;
+	
+}	
+.item-dir-nobor {
+	width: 45%;
+	float: right;
+	padding: 5px;
+	text-align: left;
+	
+}
+.item-linha-toda{
+	width: 95%;
+	float: none;
+}
+.item-linha-toda-borda{
+	width: 95%;
+	float: none;
+	border: 1px solid #bbb;
+}
+
+.label-dir {
+	float: right;
+}
+.adireito{
+	float: right;
+	text-align: right;	
+}
+.aesquerdo{
+	float: left;
+	text-align: left;	
+}
+.direito{
+	text-align: right;	
+}
+.esquerdo{
+	text-align: left;	
+}
+.label-esq {
+	float: left;
+	text-align: left;
+}
+.form-label{
+	font-size: 12px;
+	color: #15428B;
+	font-weight: 900;
+}
+.text-busca {
+
+	width: 100%;
+	float: left;
+	text-align: left;	
+}
+.teste{
+	height:100%;
+    min-height:100%;
+}
+
+ 
+.tooltip.bottom {
+  background:url(../img/black_arrow_bottom.png);
+}
+.item-form-in-dir {
+	text-align:center;
+	margin-left:2px;	
+}
+.resumo{
+	font-family:"Times New Roman";
+	font-size: 12pt;
+	padding: 0;
+	font-style: italic;	
+}
+.mce-item-table, .mce-item-table td, .mce-item-table th, .mce-item-table caption{
+    border-top: 1pt solid #000000 !important;
+    border-right: 1px solid #000000 !important;
+    border-bottom: 1pt solid #000000 !important;
+    border-left: 1px solid #000000 !important;
+}
+#simplemodal-overlay {background-color:#000;}
+#simplemodal-container {background-color:#333; border:8px solid #444; padding:12px;}

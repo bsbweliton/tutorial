@@ -1,0 +1,170 @@
+
+<?php 
+
+$form = $this->entityForm;
+
+$form->setAttribute('class', 'formular');
+
+//die($this->basePath());
+//$this->losHeadScript()->appendFile($this->basePath()."/sisgeof/js/sisgeof-core.js");
+
+?>
+
+<div id="wrapper">
+			<form id="formular" class="formular" method="post" action="">
+				<?php echo $this->formElement($form->get("docrecebido")) ?>
+				<?php echo $this->formElement($form->get("corpodocvis")) ?>
+				<?php echo $this->formElement($form->get("cabecalhohidden")) ?>
+				<?php echo $this->formElement($form->get("corposemformat")) ?>
+				<?php echo $this->formElement($form->get("tipodestinogrupo")) ?>
+				<?php echo $this->formElement($form->get("iddoc")) ?>
+				<fieldset id="cabecalho" class="esquerdo">
+				<legend>Origem</legend>
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="form-group">
+								<?php echo $this->formRow($form->get("idLotacao")) ?>
+							</div>	
+						</div>
+					</div>				
+				</fieldset>
+				<fieldset id="autoridade" class="esquerdo"><legend>Descrição da	autoridade receptora</legend>
+					<div class='div-full'>
+						<div class="btn-group">
+						  <button type="button" class="btn btn-primary" name="novaentidade" value="n">Informar Entidade</button>
+						  <button type="button" class="btn btn-primary" name="nesta" value="e">Incluir "Nesta"</button>
+						  <button type="button" class="btn btn-primary" name="nesta" value="p">Informar Pessoa</button>
+						</div>				
+					</div>
+					<div class='row' id="entidade1">
+						<div class="col-sm-6" id="entir">
+							<div class="form-group">
+								<?php echo $this->formRow($form->get("receptor")->get("nomeentidade")) ?>
+							</div>	
+						</div>
+						<div class="col-sm-6" id="crecept">
+							<div class="form-group">
+								<?php echo $this->formRow($form->get("autoridadeReceptor")->get("cargoautoridade")) ?>
+							</div>	
+						</div>					
+					</div>
+					<div class='row' id="entidade2">
+						<div class="col-sm-6" id="nrecept">
+							<div class="form-group">
+								<?php echo $this->formRow($form->get("autoridadeReceptor")->get("nomeautoridade")) ?>
+							</div>	
+						</div>
+						<div class="col-sm-6" id="grecept">
+							<div class="form-group">
+								<?php echo $this->formRow($form->get("autoridadeReceptor")->get("genero")) ?>
+							</div>	
+						</div>					
+					</div>
+				</fieldset>	
+				<fieldset id="destino" class="esquerdo"><legend>Endereço do destino</legend>
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="form-group">
+								<?php echo $this->formRow($form->get("receptor")->get("receptorEnderecoDestino")->get("logradouro")) ?>
+							</div>	
+						</div>
+						<div class="col-sm-6">
+							<div class="form-group">
+								<?php echo $this->formRow($form->get("receptor")->get("receptorEnderecoDestino")->get("cep")) ?>								
+							</div>	
+						</div>						
+					</div>				
+				
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="form-group">
+								<?php echo $this->formRow($form->get("receptor")->get("receptorEnderecoDestino")->get("cidade")) ?>															
+							</div>	
+						</div>
+						<div class="col-sm-6">
+							<div class="form-group">
+								<?php echo $this->formRow($form->get("receptor")->get("receptorEnderecoDestino")->get("estado")) ?>
+							</div>	
+						</div>						
+					</div>
+				</fieldset>	
+				<fieldset id="decdoc" class="esquerdo"><legend>Descrição do documento</legend>
+					<div class='row'>
+						<div class="col-sm-6">
+							<div class="form-group">
+								<?php echo $this->formRow($form->get("assunto")) ?>
+							</div>	
+						</div>
+						<div class="col-sm-6">
+							<div class="form-group">
+								<?php echo $this->formRow($form->get("referencia")) ?>								
+							</div>	
+						</div>							
+					</div>
+					<div class='row'>
+						<div class="col-sm-6">
+							<div class="form-group">
+							    <?php echo $this->formRow($form->get("vocativo")) ?>								
+							</div>	
+						</div>
+						<div class="col-sm-6">
+							<div class="form-group">
+								<?php echo $this->formRow($form->get("enderecamento")) ?>
+							</div>	
+						</div>							
+					</div>				
+				</fieldset>
+				<fieldset id="corpo"><legend>Corpo do documento</legend>
+					<div id="" style="text-align: justify">
+						<textarea id="corpo_doc" name="corpo_doc" rows="50" cols="80" style="width: 100%">
+							<?php 
+							if (isset($this->rascunho))
+							{
+												
+								echo $this->rascunho->corpo_doc;					
+							
+							}else{ 
+							?>
+							
+								<p id="corpo"  class="oficio" style="text-align: justify; ">
+									Digite o corpo do documento
+								</p>
+							<?php } ?>	
+						</textarea>
+					</div>
+				</fieldset>	
+				<fieldset id="fechofieldset" class="esquerdo"><legend>Fecho</legend>
+					<div class='row'>
+						<div class="col-sm-6">
+							<div class="form-group">
+								<?php echo $this->formElement($form->get("fecho")) ?>
+							</div>	
+						</div>	
+					</div>
+				</fieldset>
+
+				<fieldset id="emissor" class="esquerdo">
+					<legend>Autoridade emissora</legend>
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="form-group">
+								<?php echo $this->formRow($form->get("nomeemis")) ?>								
+							</div> 
+						</div>
+						<div class="col-sm-6">
+							<div class="form-group">
+								<?php echo $this->formRow($form->get("cargoemis")) ?>
+							</div>	
+						</div>
+					</div>
+				</fieldset>
+				<fieldset id="botoes">
+					<div class="row">
+						<div class="col-md-12 text-center">
+							<?php echo $this->formButton($form->get("visualizar")) ?>
+							<?php echo $this->formButton($form->get("submit")) ?>
+						</div>
+					</div>
+				</fieldset>																	
+			</form>
+</div>	

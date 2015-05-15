@@ -1,0 +1,110 @@
+body {
+	background-color: #FFFFFF;
+	font-family:"Times New Roman",Times,serif;
+	scrollbar-3dlight-color: #F0F0EE;
+	scrollbar-arrow-color: #676662;
+	scrollbar-base-color: #F0F0EE;
+	scrollbar-darkshadow-color: #DDDDDD;
+	scrollbar-face-color: #E0E0DD;
+	scrollbar-highlight-color: #F0F0EE;
+	scrollbar-shadow-color: #F0F0EE;
+	scrollbar-track-color: #F5F5F5;
+	font-size: 15px;
+}
+
+p {margin:0; padding:0;}
+
+.mce-item-table, .mce-item-table td, .mce-item-table th, .mce-item-table caption{
+    border-top: 1pt solid #000000 !important;
+    border-right: 1px solid #000000 !important;
+    border-bottom: 1pt solid #000000 !important;
+    border-left: 1px solid #000000 !important;
+}
+
+td {
+	font-family:"Times New Roman",Times,serif;
+	font-size: 15px;
+}
+
+pre {
+	font-family:"Times New Roman",Times,serif;
+	font-size: 15px;
+}
+
+.tablerow1 {
+	background-color: #BBBBBB;
+}
+
+thead {
+	background-color: #FFBBBB;
+}
+
+tfoot {
+	background-color: #BBBBFF;
+}
+
+th {
+	font-family:"Times New Roman",Times,serif;
+	font-size: 15px;
+}
+.oficio{
+	font-family:"Times New Roman",Times,serif;
+	font-size: 15px;
+	padding: 0;
+}
+
+.negrito {
+	font-weight: bold;
+}
+
+.paragrafo-margem {
+	text-indent: 30px;
+	font-size: 17px;
+}
+
+.paragrafo {
+	font-size: 17px;
+	text-align: justify;
+}
+.paragrafo-centralizado {
+	font-size: 15px;
+	text-align: center;
+}
+
+.tituloDoc {
+	font-size: 23px;
+	font-weight: bold;
+}
+
+.cabecalho {
+	font-family: Arial;
+	font-size: 15px;
+}
+.cabecalho-impressao {
+	font-family: Arial;
+	font-size: 16px;
+}
+.cabecalho-visualizar {
+	font-family: Arial;
+	font-size: 13px;
+}
+
+.docestilo{
+	font-family:"Times New Roman",Times,serif;
+	font-size: 15px;
+}
+.fonte12{
+font-size: 15px;	
+	}
+.fonte10{
+font-size: 13px;	
+	}
+.fonte9{
+font-size: 12px;	
+	}
+.fonte8{
+font-size: 11px;	
+	}
+.referencia{
+	display: none;	
+}
