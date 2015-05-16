@@ -6,6 +6,8 @@ use Zend\View\Model\ViewModel;
 use Zend\Mvc\Controller\AbstractActionController;
 use Zend\Form\Form;
 use Zend\Form\Annotation\AnnotationBuilder;
+use LosBase\Entity\EntityManagerAwareTrait;
+use Documento\Form\DocumentoForm;
 
 
 
@@ -15,7 +17,7 @@ class CrudController extends AbstractCrudController
 	{
 		$this->insertCssDoc($this);
 		$this->insertJScriptGeraDoc($this);			    
-	    $form = $this->insereForm($this);	   
+	    $form = new DocumentoForm($this->getEntityManager());	   
 		
 		$classe = $this->getEntityClass();
 		$entity = new $classe();
@@ -23,27 +25,11 @@ class CrudController extends AbstractCrudController
 		
 		$redirectUrl = $this->url()->fromRoute($this->getActionRoute(), [], true);
 		$prg = $this->fileprg($form, $redirectUrl, true);
-		
-		if ($prg instanceof Response) {
-			return $prg;
-		} elseif ($prg === false) {
-			$this->getEventManager()->trigger('getForm', $this, [
-					'form' => $form,
-					'entityClass' => $this->getEntityClass(),
-					'entity' => $entity,
-			]);
-		
-			return [
-					'entityForm' => $form,
-					'entity' => $entity,
-			];
-		}
-		
-		$this->getEventManager()->trigger('getForm', $this, [
-				'form' => $form,
-				'entityClass' => $this->getEntityClass(),
+				
+		return [
+				'entityForm' => $form,
 				'entity' => $entity,
-		]);
+		];		
 		
 		$savedEntity = $this->getEntityService()->save($form, $entity);
 		
@@ -69,110 +55,7 @@ class CrudController extends AbstractCrudController
 		return $view;	*/	
 	}
 	
-	private function insereForm(AbstractCrudController $controller)
-	{
-		$form = $this->getForm($this->getEntityClass());
-		
-		$form->add(array(
-				'type' => 'Hidden', # ou 'type' => 'ZendFormElementHidden'
-				'name' => 'docrecebido',
-				'attributes' => array(
-						'id'            => 'docrecebido',
-				),
-		));
-		
-		// elemento do tipo Button
-		$form->add(array(
-				'type' => 'Button', 
-				'name' => 'visualizar',
-				'id' => 'visualizar',			
-			    'options' => array(
-			    		'label' => 'Visualizar',			    		
-			    ),
-				'attributes' => array(
-						'type'  => 'submit',
-						'class' => 'btn btn-primary'
-				)				
-		));		
-		
-		// elemento do tipo hidden
-		$form->add(array(
-				'type' => 'Hidden', # ou 'type' => 'ZendFormElementHidden'
-				'name' => 'corpodocvis',
-				'attributes' => array(
-						'id'            => 'corpodocvis',
-				),
-		));
-		
-		// elemento do tipo hidden
-		$form->add(array(
-				'type' => 'Hidden', # ou 'type' => 'ZendFormElementHidden'
-				'name' => 'cabecalhohidden',
-				'attributes' => array(
-						'id'            => 'cabecalhohidden',
-				),
-		));
-		
-		// elemento do tipo hidden
-		$form->add(array(
-				'type' => 'Hidden', # ou 'type' => 'ZendFormElementHidden'
-				'name' => 'corposemformat',
-				'attributes' => array(
-						'id'            => 'corposemformat',
-				),
-		));
-		
-		// elemento do tipo hidden
-		$form->add(array(
-				'type' => 'Hidden', # ou 'type' => 'ZendFormElementHidden'
-				'name' => 'tipodestinogrupo',
-				'attributes' => array(
-						'id'            => 'tipodestinogrupo',
-				),
-		));
-		
-		// elemento do tipo hidden
-		$form->add(array(
-				'type' => 'Hidden', # ou 'type' => 'ZendFormElementHidden'
-				'name' => 'iddoc',
-				'attributes' => array(
-						'id'            => 'iddoc',
-				),
-		));			
 
-		// elemento do tipo text
-		$form->add(array(
-				'type' => 'Text', # ou 'type' => 'ZendFormElementText'
-				'name' => 'nomeemis',
-				'attributes' => array(
-						'class'         => 'form-control',
-						'id'            => 'nomeemis',
-						'placeholder'   => 'Nome do Emissor',
-				),
-				'options' => array(
-						'label' => 'Nome',
-				)				
-		));		
-		
-        // elemento do tipo select
-        $form->add(array(
-        		'type' => 'Select',
-        		'name' => 'cargoemis',
-        		'attributes' => array(
-        				'id'            => 'cargoemis',
-        				'class'         => 'form-control',
-        		),        		
-        		'options' => array(
-        				'label' => 'Cargo',
-        				'value_options' => array(
-        						'0' => 'Chefe de núcleo',
-        						'1' => 'Gerente',
-        				),
-        		)
-        ));        
-		
-		return $form;
-	}
 	
 	private function insertCssDoc(AbstractCrudController $controller)
 	{

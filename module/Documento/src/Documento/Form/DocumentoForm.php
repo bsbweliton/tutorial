@@ -9,13 +9,32 @@ namespace Documento\Form;
 use Zend\Form\Form;
 // import Element
 use Zend\Form\Element;
+use Zend\Mvc\Controller\AbstractActionController;
+use Zend\Form\Annotation\AnnotationBuilder;
+use DoctrineORMModule\Stdlib\Hydrator\DoctrineEntity as DoctrineHydrator;
+use DoctrineORMModule\Stdlib\Hydrator\DoctrineORMModule\Stdlib\Hydrator;
+use Doctrine\ORM\EntityManager;
 
 class DocumentoForm extends Form
 {
 
-    public function __construct($name = null)
+    public function __construct(EntityManager $entityManager)
     {
-        parent::__construct($name);
+        parent::__construct("documentoForm");                
+        
+        $builder = new AnnotationBuilder();
+        
+        $entity = new \Documento\Entity\Documento();
+        
+        $hydrator = new DoctrineHydrator($entityManager, $entity);
+        
+        $this->setHydrator($hydrator);
+        
+        $fieldset = $builder->createForm( $entity ) ;     
+
+        $fieldset->setUseAsBaseFieldset(true);
+        
+        $this->add( $fieldset );        
         
 		$this->add(array(
 				'type' => 'Hidden', # ou 'type' => 'ZendFormElementHidden'
@@ -86,7 +105,20 @@ class DocumentoForm extends Form
 				'attributes' => array(
 						'id'            => 'idautoridadereceptor',
 				),
+		));		
+		
+		$this->add(array(
+				'type' => 'Zend\Form\Element\Csrf',
+				'name' => 'csrf'
 		));
+		
+		$this->add(array(
+				'name' => 'submit',
+				'attributes' => array(
+						'type' => 'submit',
+						'value' => 'Save'
+				)
+		));		
     }
 
 }
